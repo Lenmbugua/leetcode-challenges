@@ -7,9 +7,4 @@ from Products
 where (product_id,change_date) in (select product_id , max(change_date) as date 
 from Products 
 where change_date <='2019-08-16' 
-<<<<<<< HEAD
 group by product_id)
-select * from 
-=======
-group by product_id)
->>>>>>> 89a0c05a28a05b943383d5e769c0a762c4218317
